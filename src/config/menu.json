@@ -13,6 +13,10 @@
       "url": "/pricing"
     },
     {
+      "name": "Download",
+      "url": "/download"
+    },
+    {
       "name": "Contact",
       "url": "/contact"
     },

@@ -5,14 +5,17 @@ banner:
   content: Use the same mouse and keboard with multiple devices or allow others to use your computer during a video call
   image: /images/banner-art.png
   button:
-    label: "Download & use for free"
-    link: "/contact"
+    label: "Download"
+    link: "/download"
     enable: true
 
 # feature
 feature: 
   title: Features
   features:
+  - name: "100% free"
+    icon: "/images/love.svg"
+    content: "Currently under development, trying the software is completely free"
   - name: "Shared clipboard"
     icon: "/images/code.svg"
     content: "Copy and paste between computers"
@@ -21,16 +24,16 @@ feature:
     content: "Windows, macOS and Linux supported"
   - name: "Low-latency"
     icon: "/images/user-clock.svg"
-    content: "Instant peer-to-peer connection, less data to send compared to video"
+    content: "Instant peer-to-peer connection, less data to send compared to remote desktop software"
   - name: "Secure"
     icon: "/images/love.svg"
-    content: "All messaging is end-to-end encrypted. Mouse and keyboard events are routed directly between devices, not through a server"
+    content: "All messaging is end-to-end encrypted. Events are routed directly between devices, not through a server"
   - name: "Private"
-    icon: "/images/speedometer.svg"
+    icon: "/images/love.svg"
     content: "No user data is being tracked, saved or logged"
   - name: "Fast"
-    icon: "/images/cloud.svg"
-    content: "Technology chosen for the maximum performance: Rust, WebRTC datachannels and SolidJS"
+    icon: "/images/speedometer.svg"
+    content: "Technologies chosen for the maximum performance: Rust, WebRTC and SolidJS"
   - name: "Simple / Web first"
     icon: "/images/cloud.svg"
     content: "Only one computer needs to install the application"
